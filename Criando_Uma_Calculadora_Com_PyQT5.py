@@ -10,7 +10,7 @@ class Calculadora(QMainWindow):
     def __init__(self, parent=None):
         super().__init__(parent)   # Executando o inicializador da QMainWindow
         self.setWindowTitle('Calculator By Traxr')   # Definindo titulo da Janela
-        self.setWindowIcon(QtGui.QIcon('icon.png'))   # Definindo ícone para a janela
+        self.setWindowIcon(QtGui.QIcon('images\icon.png'))   # Definindo ícone para a janela
         self.setFixedSize(320, 500)   # Definindo um tamanho fixo para a janela
         self.cw = QWidget()   # Central Widget
         self.grid = QGridLayout(self.cw)   # Grid com central Widget
