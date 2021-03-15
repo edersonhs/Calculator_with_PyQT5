@@ -3,4 +3,4 @@
 Calculator made with Python and PyQT5 to practice GUI Design
 
 ## Window:
-![](Images/Window-Preview.png)
+![](Images/Animated-Preview.gif)
